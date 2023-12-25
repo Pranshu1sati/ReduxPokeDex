@@ -160,15 +160,19 @@ const Infinitescroll = () => {
       mt="4"
       mr="4"
     //   colorScheme="blue"
-      textColor={"white"}
+    textColor={"black"} bg="pink.200"
     >
-      <Menu >
-        <MenuButton as="Button" textColor={"black"} bgGradient="radial(gray.300, yellow.400, pink.200)">
+      <Menu textColor={"black"} bg="pink.200">
+        <MenuButton as="Button"
+        textColor={"black"} bg="pink.200"
+         >
           Types
         </MenuButton>
-        <MenuList>
+        <MenuList
+        textColor={"black"} bg="pink.200"
+        >
           {types.map((type) => (
-            <MenuItem key={type.url} onClick={() => handleClick(type.url)}>
+            <MenuItem key={type.url} onClick={() => handleClick(type.url)} textColor={"black"} bg="pink.200">
               {type.name}
             </MenuItem>
           ))}

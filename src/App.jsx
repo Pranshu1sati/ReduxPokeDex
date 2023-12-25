@@ -2,7 +2,7 @@ import { useState } from 'react'
 import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 import './App.css'
-import Infinitescroll from './Infitine'
+import Infinitescroll from './InfitineLayout'
 import Filter from './Filter'
 import SearchComponent from './SearchInput'
 
