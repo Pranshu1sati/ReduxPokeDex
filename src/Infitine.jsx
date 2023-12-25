@@ -162,8 +162,8 @@ const Infinitescroll = () => {
     //   colorScheme="blue"
       textColor={"white"}
     >
-      <Menu backgroundColor={"blue.500"}>
-        <MenuButton as="Button">
+      <Menu >
+        <MenuButton as="Button" textColor={"black"} bgGradient="radial(gray.300, yellow.400, pink.200)">
           Types
         </MenuButton>
         <MenuList>
